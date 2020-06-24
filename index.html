@@ -10,11 +10,18 @@
 <body>
     <h1>Steak Survey</h1>
     <h3>Tell us about your ideal steak!</h3>
-    <form>
-        <h3>Name</h3>
-        <input type="text">
-        <h3>Email</h3>
-        <input type="text">
+    <form id="steakForm">
+            <h3 class="formContent">Name</h3>
+            <input type="text">
+            <h3>Email</h3>
+            <input type="text">
+            <h3>What is your favorite cut of steak?</h3>
+            <input type="radio" id="Sirloin" name="cut" value="Sirloin">
+            <label for="Sirloin">Sirloin</label><br>
+            <input type="radio" id="ribeye" name="cut" value="ribeye">
+            <label for="ribeye">Ribeye</label><br>
+            <input type="radio" id="Strip" name="cut" value="Strip">
+            <label for="Strip">Strip</label><br>
     </form>
 </body>
 </html>
