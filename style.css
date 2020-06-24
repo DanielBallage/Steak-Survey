@@ -1,3 +1,4 @@
+/*General-------------------------------------------------------------------------------*/
 body {
     background: url(backgroundsteak.jpg);
     color: white;
@@ -10,6 +11,7 @@ body {
 
 }
 
+/*Elements-----------------------------------------------------------------------------*/
 header {
     text-align: center;
     font-family: 'Slabo 27px', serif;
@@ -57,6 +59,7 @@ footer {
     padding: 0.5em;
 }
 
+/*Media Queries-----------------------------------------------------------------------------*/
 @media screen and (min-width: 650px) {
     body {
         background-size: auto;
