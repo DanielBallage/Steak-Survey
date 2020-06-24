@@ -6,22 +6,49 @@
     <title>Document</title>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Slabo+27px&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Steak Survey</h1>
-    <h3>Tell us about your ideal steak!</h3>
+    <header>
+        <h1>Steak Survey</h1>
+        <h2>Tell us about your ideal steak!</h2>
+    </header>
     <form id="steakForm">
+            <div class="content">
             <h3 class="formContent">Name</h3>
-            <input type="text">
+            <input type="text" class="textInput">
             <h3>Email</h3>
-            <input type="text">
+            <input type="text" class="textInput">
+            
             <h3>What is your favorite cut of steak?</h3>
-            <input type="radio" id="Sirloin" name="cut" value="Sirloin">
+            <input type="radio" id="sirloin" name="cut" value="Sirloin">
             <label for="Sirloin">Sirloin</label><br>
             <input type="radio" id="ribeye" name="cut" value="ribeye">
             <label for="ribeye">Ribeye</label><br>
             <input type="radio" id="Strip" name="cut" value="Strip">
             <label for="Strip">Strip</label><br>
+            <input type="radio" id="Filet" name="cut" value="Filet">
+            <label for="Filet">Filet</label><br>
+            <input type="radio"  id="Other" name="cut" value="Other">
+            <label for="Other">Other (Specify)</label><br><br>
+            <input type="text" class="textInput" placeholder="(Flank Steak, Prime Rib, etc...)">
+            
+
+            <h3>How do you like your steak cooked?</h3>
+            <input type="radio" id="rare" name="cook" value="rare">
+            <label for="rare">Rare</label><br>
+            <input type="radio" id="medium-rare" name="cook" value="medium-rare">
+            <label for="medium-rare">Medium-rare</label><br>
+            <input type="radio" id="medium" name="cook" value="medium">
+            <label for="medium">Medium</label><br>
+            <input type="radio" id="medium-well" name="cook" value="medium-well">
+            <label for="medium-well">Medium-well</label><br>
+            <input type="radio"  id="well" name="cook" value="well">
+            <label for="well">Well</label><br><br>
+            <button>Submit</button>
+            <button>Cancel</button>
+        </div>
     </form>
+    <footer>Created by Daniel Ballage</footer>
 </body>
 </html>
